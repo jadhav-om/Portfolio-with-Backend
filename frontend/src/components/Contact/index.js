@@ -150,7 +150,7 @@ const Contact = () => {
       
 
       // Save to MongoDB backend
-      await axios.post('https://portfolio-with-backend-contact-api.onrender.com/api/contact', formData);
+      await axios.post('https://portfolio-with-backend-api.onrender.com/api/contact', formData);
 
       // Reset form and show success
       setOpen(true);
